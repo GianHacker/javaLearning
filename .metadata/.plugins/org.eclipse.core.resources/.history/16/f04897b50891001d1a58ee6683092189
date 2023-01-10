@@ -1,0 +1,29 @@
+
+public class Earth {
+	public static void main(String args[]) {
+		
+		Human tom;
+		
+		tom = new Human();
+		tom.age = 5;
+		tom.eyeColor = "Blue";
+		tom.name = "Tom";
+		tom.heightInInches = 40;
+		
+		tom.speak();
+		
+		Human bob;
+		
+		bob = new Human();
+		bob.name = "Bob the Builder";
+		bob.age = 15;
+		bob.eyeColor = "Brown";
+		bob.heightInInches = 70;
+		
+		bob.speak();
+		bob.walk();
+		bob.work();
+		bob.eat();
+	}
+
+}
