@@ -1,0 +1,17 @@
+
+public class Bird {
+	
+	String bird;
+	int age;
+	String name;
+	String place;
+	
+	public Bird(String bird, int age, String name, String place) {
+		super();
+		this.bird = bird;
+		this.age = age;
+		this.name = name;
+		this.place = place;
+	}
+
+}
